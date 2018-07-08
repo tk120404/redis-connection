@@ -6,8 +6,8 @@ if (process.env.REDISCLOUD_URL) {
   var redisURL = url.parse(process.env.REDISCLOUD_URL);
   rc = {
     port: redisURL.port,
-    host: redisURL.hostname,
-    auth: redisURL.auth.split(":")[1]
+    host: redisURL.hostname
+   // auth: redisURL.auth.split(":")[1]
   }
 }
 else {
