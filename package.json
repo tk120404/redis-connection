@@ -1,7 +1,7 @@
 {
   "name": "redis-connection-no-auth",
   "version": "0.0.1",
-  "description": "Re-use a single or pool of redis connections across several modules/files in your app.",
+  "description": "Re-use a single or pool of redis connections across several modules/files in your app. this is forked repo of dwyl/redis-connection with no auth for elastic cache",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.test.js"
@@ -17,7 +17,10 @@
     "multiple",
     "re-useable",
     "global",
-    "no-auth"
+    "no-auth",
+    "elastic-cache",
+    "ec2",
+    "aws"
   ],
   "author": "@nelsonic & friends @dwylhq",
   "license": "GPL-2.0",
